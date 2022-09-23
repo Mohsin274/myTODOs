@@ -41,11 +41,11 @@ JWT_SECRET=<secret>
 * To run the backend  
  ```sh
  $ cd backend
- $ node server.js
+ $ node run
  ```
  
 * To run the frontend
  ```sh
  $ cd frontend
- $ npm run start
+ $ npm start
  ```
