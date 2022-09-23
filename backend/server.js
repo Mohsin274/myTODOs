@@ -33,8 +33,7 @@ app.use((req, res) => {
   });
 
 //DB connection
-const uri =
-  ''; //MongoDB URL for database connection goes here
+const uri =   ''; //MongoDB URL for database connection goes here
 mongoose
   .connect(uri, {
     useNewUrlParser: true,
