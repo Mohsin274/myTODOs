@@ -1,0 +1,95 @@
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 900px;
+    min-height: 300px;
+    padding: 10px 20px;
+}
+
+.flex .MuiPaper-rounded {
+    border-radius: 10px;
+}
+
+.task_container {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task_container:hover {
+    background-color: #edf5f3;
+    transition: 0.3s;
+}
+
+.task {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+.flex .MuiInput-inputMarginDense {
+    height: 2em;
+	outline: none;
+	border: none;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.flex .MuiInput-marginDense {
+    font-family: inherit;
+}
+
+.flex .MuiButton-textSecondary {
+    font-family: inherit;
+}
+
+.flex .MuiButton-outlinedPrimary {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 10px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: inherit;
+	transition: 0.5s;
+}
+
+.white_btn:hover {
+	background-color: rgb(218, 218, 218);
+}
+
+.flex .MuiButton-outlinedPrimary{
+	background-image: linear-gradient(25deg, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+	background-size: 200% auto;
+	color: white;
+	margin: 10px;
+}
+
+.flex .MuiButton-outlinedPrimary:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+    border: none;
+  }
