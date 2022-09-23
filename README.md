@@ -31,10 +31,10 @@ $ npm install
 *This installs the required dependencies for both the frontend and backend*
 
 
-* Create a ```.env``` file in the backend directory and add the following
+* Add MongoDB connection URL to server.js (inside backend folder)
 ```
-MONG_URI=<URI>
-JWT_SECRET=<secret>
+//DB connection
+const uri =   ''; //MongoDB URL for database connection goes here
 ```
 
     
